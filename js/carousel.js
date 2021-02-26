@@ -29,4 +29,4 @@ function prevImage() {
 document.querySelector('.prev').addEventListener('click', prevImage);
 document.querySelector('.next').addEventListener('click', nextImage);
 
-setInterval(nextImage, 5000);
+setInterval(nextImage, 3000);

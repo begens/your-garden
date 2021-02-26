@@ -29,21 +29,18 @@ img {
     margin: auto;
 }
 
-menu {
-    
-    background-size: cover;
+header nav .menu {
     display: flex;
     justify-content: space-around;
     padding: 0;
     list-style-type: none;
     flex-wrap: wrap;
-}
-
+    }
 
 header {
     background-image: url(../img/first.png);
     background-size: cover;
-    background-position: center;
+    background-position: left;
     text-transform: uppercase;
     width: 100%;
     color: green;
