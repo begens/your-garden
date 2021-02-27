@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
 :root { 
     font-family: 'Jost', sans-serif;
     max-width: 980px;
     margin: auto;
     --main-color: green;
-    --accent-color: rgb(97, 221, 25);
-  
+    --accent-color: rgb(97, 221, 25);   
 }
 
 nav.logo {
@@ -14,7 +14,13 @@ nav.logo {
     font-size: 1rem;
     font-weight: bold; 
     display: flex;
-   }
+    text-align: left;
+}
+
+.banner { 
+    color:green;
+    font-family:'Dancing Script';
+}
 
 body {
   background-color: whitesmoke;
@@ -22,19 +28,30 @@ body {
   margin: auto;
  }
 
-
-
 img {
     width: 100%;
     margin: auto;
 }
 
-header nav .menu {
+@media (min-width:800px) {
+	p,
+    a,
+    h2,
+    h3 {
+        background-size: cover;
+		color: black;
+		text-decoration: none;
+		font-size: 25px;
+	}
+}
+
+.menu {
     display: flex;
-    justify-content: space-around;
-    padding: 0;
-    list-style-type: none;
-    flex-wrap: wrap;
+    justify-content: space-between;
+	margin-left: 20px;
+	padding-top: 30px;
+    margin-right: 20px;
+    text-align: left;
     }
 
 header {
@@ -44,11 +61,14 @@ header {
     text-transform: uppercase;
     width: 100%;
     color: green;
-
 }
+
+main {
+	background-color: rgb(113, 241, 109);
+    min-height: 2300px;
+    text-align: left;
+    color:white;
     
-.about h3 {
-text-align: left;
 }
 
 footer {
@@ -57,10 +77,12 @@ footer {
     text-align: center;
     width: 100%;
     color:black
-
 }
 
 button {
     background-color: green;
-    color:white;
+    color: white;
+}
+#contacts {
+    color:red;
 }
