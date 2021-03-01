@@ -80,6 +80,7 @@ img {
 	}
 }
 button {
+    display: flex;
     background-color: green;
     color: white;
 }
@@ -88,7 +89,7 @@ main {
 	background-color: rgb(113, 241, 109);
     min-height: 2300px;
     text-align: left;
-    color:white;
+    color:black;
     
 }
 
